@@ -4,3 +4,5 @@ config/
 __pycache__/
 .ruff_cache/
 .venv-dev/
+uv.lock
+.venv/
