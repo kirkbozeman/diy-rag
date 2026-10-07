@@ -14,4 +14,11 @@ select = [
     "B",   # bugbear
     "C4",  # comprehensions
     "SIM", # simplify
+    "D",   # pydocstyle
 ]
+ignore = [
+    "D1",  # don't require docstrings, only format those that exist
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
